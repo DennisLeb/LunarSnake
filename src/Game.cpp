@@ -246,15 +246,15 @@ void Game::init(const Vector2 &win_size, const std::string &win_name)
 	m_title_screen_01 = LoadTexture(ASSET_PATH "menu/title_screen_01.png");
 	m_pause_menu_01 = LoadTexture(ASSET_PATH "menu/pause_menu_01.png");
 	m_game_over_01 = LoadTexture(ASSET_PATH "menu/game_over_01.png");
-	m_floor_tile_01 = LoadTexture(ASSET_PATH "level/floor_tile_02.png");
-	m_snack_01 = LoadTexture(ASSET_PATH "level/snack_02.png");
-	m_snake_head_01 = LoadTexture(ASSET_PATH "snake/snake_head_02.png");
-	m_snake_body_01 = LoadTexture(ASSET_PATH "snake/snake_body_04.png");
-	m_snake_body_02 = LoadTexture(ASSET_PATH "snake/snake_body_05.png");
-	m_snake_body_03 = LoadTexture(ASSET_PATH "snake/snake_body_06.png");
-	m_snake_tail_01 = LoadTexture(ASSET_PATH "snake/snake_tail_02.png");
+	m_floor_tile_01 = LoadTexture(ASSET_PATH "level/floor_tile_01.png");
+	m_snack_01 = LoadTexture(ASSET_PATH "level/snack_01.png");
+	m_snake_head_01 = LoadTexture(ASSET_PATH "snake/snake_head_01.png");
+	m_snake_body_01 = LoadTexture(ASSET_PATH "snake/snake_body_01.png");
+	m_snake_body_02 = LoadTexture(ASSET_PATH "snake/snake_body_02.png");
+	m_snake_body_03 = LoadTexture(ASSET_PATH "snake/snake_body_03.png");
+	m_snake_tail_01 = LoadTexture(ASSET_PATH "snake/snake_tail_01.png");
 
-	m_snack_eaten_sprite_sheet = LoadTexture(ASSET_PATH "level/animation/snack_02_anim.png");
+	m_snack_eaten_sprite_sheet = LoadTexture(ASSET_PATH "level/animation/snack_anim_01.png");
 	m_game_over_sprite_sheet = LoadTexture(ASSET_PATH "menu/animation/game_over_anim_01.png");
 
 	m_snack_eaten_anim.init(m_snack_eaten_sprite_sheet, 6);
