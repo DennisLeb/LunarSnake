@@ -667,7 +667,7 @@ void Game::handleOtherInput(const int &arg_key)
 
 
 				///////////////////////////
-				//  Game_over_exception  //
+				//  Exit_game_exception  //
 				///////////////////////////
 /*----------------------------------------*\
 | Constructor / Destructor                 |

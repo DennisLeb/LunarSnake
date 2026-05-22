@@ -19,6 +19,7 @@
 /// 19/05/2026 - Implemented basic pause functionality & game restart
 /// 21/05/2026 - Implemented 'Game Over' menu / rework
 /// 21/05/2026 - Implemented score
+/// 22/05/2026 - Configured project with CMake and created GitHub repo
 
 
 #include "Game.hpp"
