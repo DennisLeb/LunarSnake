@@ -616,11 +616,17 @@ void Game::handleOtherInput(const int &arg_key)
 	// Game speed+
 	case KEY_COMMA:
 	{
-		m_game_speed -= static_cast<std::chrono::milliseconds>(300);
-		
-		std::stringstream ss;
-		ss << "Game speed -300ms: new value: " << m_game_speed;
-		snakeLog(ss);
+		if (m_game_speed != static_cast<std::chrono::milliseconds>(300))
+		{
+			m_game_speed -= static_cast<std::chrono::milliseconds>(300);
+
+			std::stringstream ss;
+			ss << "Game speed -300ms: new value: " << m_game_speed;
+			snakeLog(ss);
+		}
+
+		else
+			snakeLog("Can't change game speed to 0");
 		
 		break;
 	}
